@@ -3,6 +3,17 @@
   > npm install --save-dev @types/sequelize
 
 
+@Body 
+  {
+    "id" : 1,
+    "name" : "SOk",
+  }
+@Param
+  http:localhost:8080/api/cart/:id/:name
+@Query
+  http:localhost:8080/api/cart?id=10$qr=099090
+
+
 
 
 
